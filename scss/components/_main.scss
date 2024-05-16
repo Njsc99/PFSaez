@@ -43,6 +43,7 @@ body{
                 img{
                     height: 400px;
                     width: 100%;  
+                    object-fit: cover;
                 }
             }
     
@@ -124,12 +125,17 @@ body{
                         padding: 10px;
                         margin-left: 35%;
                         transition-property: background;
-                        transition-duration: 0.5s;
+                        transition: 2s;
+
                         &:hover{
                             background: rgb(41,225,116);
                             background: linear-gradient(90deg, rgba(41,225,116,1) 100%, #2ca880 100%);
                         }
                     }
+                }
+
+                .grid-tarjetas-item:hover{
+                    transform: scale(1.1);
                 }
             }
         }
