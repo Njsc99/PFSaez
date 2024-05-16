@@ -101,7 +101,8 @@ body {
           height: 500px;
           text-align: justify;
           margin-top: 20px;
-          margin-bottom: 20px; }
+          margin-bottom: 20px;
+          transition: 0.5s; }
           body main .adoptar .grid-tarjetas .grid-tarjetas-item img {
             width: 350px;
             height: 350px;
